@@ -1,4 +1,4 @@
-import { FaLocationArrow } from "react-icons/fa6";
+import { FaLocationArrow, FaArrowTurnDown } from "react-icons/fa6";
 
 import MagicButton from "./MagicButton";
 import { Spotlight } from "./ui/Spotlight";
@@ -52,14 +52,18 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! I&apos;m Ntita, a Software Developer based in South Africa,
-            Johannesburg.
+            Hi! I&apos;m Ntita, a Software Developer based in Johannesburg,
+            South Africa. I specialize in crafting
+            <span className="text-purple"> dynamic web applications</span> that
+            deliver exceptional user experiences. With a passion for innovation
+            and a keen eye for detail, I&apos;m dedicated to bringing your ideas
+            to life through code.
           </p>
 
-          <a href="#about">
+          <a href="#projects">
             <MagicButton
-              title="Show my work"
-              icon={<FaLocationArrow />}
+              title="Scroll Down"
+              icon={<FaArrowTurnDown />}
               position="right"
             />
           </a>

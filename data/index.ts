@@ -8,12 +8,13 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
+    title:
+      "I’m about building real, lasting connections with the people I work with.",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
-    img: "/b1.svg",
+    img: "/profile.png",
     spareImg: "",
   },
   {
@@ -28,7 +29,7 @@ export const gridItems = [
   },
   {
     id: 3,
-    title: "My tech stack",
+    title: "My Tech Stack",
     description: "I constantly try to improve",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -49,7 +50,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building AI agents using n8n",
+    title: "Currently working on a startup called KORA",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -72,6 +73,22 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
+    title: "KORA - AI Family Assistant",
+    des: "What inspired me was the idea of being ahead of the curve—to be among the first to build something that I strongly believe is inevitable: a true AI family assistant.",
+    img: "/kora-img.png",
+    iconLists: ["/re.svg"],
+    link: "https://meetkora.online/",
+  },
+  {
+    id: 2,
+    title: "FineTech Agency Website",
+    des: "Designed and developed a modern, responsive website for Finetech Agency — a forward-thinking digital agency — enhancing their brand identity, improving user experience, and significantly increasing lead generation through optimized design and performance.",
+    img: "/finetech.png",
+    iconLists: ["/re.svg"],
+    link: "https://www.finetech.tech/",
+  },
+  {
+    id: 3,
     title: "Teljoy Payment Gateway",
     des: "Contributed to the development of a secure and scalable payment gateway system for Teljoy, enhancing online transaction capabilities.",
     img: "/img7.png",
@@ -79,7 +96,7 @@ export const projects = [
     link: "https://teljoy.co.za",
   },
   {
-    id: 2,
+    id: 4,
     title: "Legala IT Solutions Website",
     des: "Designed and built a sleek, responsive corporate website for a digital agency, boosting their online presence and lead generation.",
     img: "/img8.png",
@@ -87,7 +104,7 @@ export const projects = [
     link: "https://legalaitsolutions.co.za/",
   },
   {
-    id: 3,
+    id: 5,
     title: "E-Ticketing & License Scanning App",
     des: "Developed a smart e-ticketing application that scans license disks and automatically retrieves vehicle details to issue tickets.",
     img: "img9.png",
@@ -95,7 +112,7 @@ export const projects = [
     link: "/",
   },
   {
-    id: 4,
+    id: 6,
     title: "Ganyu - Personal Finance App",
     des: "Built a money management application that helps users track expenses, set budgets, and visualize their financial health.",
     img: "/im10.png",
